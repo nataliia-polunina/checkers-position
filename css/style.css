@@ -1,0 +1,173 @@
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/images.jpg);
+}
+
+.desk {
+	height: 430px;
+	width: 430px;
+	background-color: #f4c69e;
+}
+
+.board {
+	height: 410px;
+	width: 410px;
+	border: 5px solid #1e0604; 
+	background-color: #f4c69e;
+	background-image: linear-gradient( 45deg, #1e0604 25%, transparent 25%, transparent 74%, #1e0604 75%, #1e0604), 
+	linear-gradient( 45deg, #1e0604 25%, transparent 25%, transparent 74%, #1e0604 75%, #1e0604);
+	background-size:100px 100px;
+	background-position: 0 0, 50px 50px;
+}
+
+.checker {
+	height: 46px;
+	width: 46px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.checker::after {
+	content: '';
+	width: 75%;
+	height: 75%;
+	border:  1px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checker__dark {
+	display: inline-block;
+	background-color: #a64717;
+}
+
+.checker__light {
+	display: inline-block;
+	background-color: #fcf9f7;
+}
+
+.checker__dark.number1 {
+	top:  1px;
+	left: 52px;
+}
+
+.checker__dark.number2 {
+	top:  1px;
+	left: 152px;
+}
+
+.checker__dark.number3 {
+	top:  1px;
+	left: 252px;
+}
+
+.checker__dark.number4 {
+	top:  1px;
+	left: 352px;
+}
+
+.checker__dark.number5 {
+	top:  52px;
+	left: 1px;
+}
+
+.checker__dark.number6 {
+	top:  52px;
+	left: 102px;
+}
+
+.checker__dark.number7 {
+	top:  52px;
+	left: 202px;
+}
+
+.checker__dark.number8 {
+	top:  52px;
+	left: 302px;
+}
+
+.checker__dark.number9 {
+	top:  102px;
+	left: 52px;
+}
+
+.checker__dark.number10 {
+	top:  102px;
+	left: 152px;
+}
+
+.checker__dark.number11 {
+	top:  102px;
+	left: 252px;
+}
+
+.checker__dark.number12 {
+	top:  102px;
+	left: 352px;
+}
+
+.checker__light.number1 {
+	top: 252px;
+	left: 1px;
+}
+
+.checker__light.number2 {
+	top: 252px;
+	left: 102px;
+}
+
+.checker__light.number3 {
+	top: 252px;
+	left: 202px;
+}
+
+.checker__light.number4 {
+	top: 252px;
+	left: 302px;
+}
+
+.checker__light.number5 {
+	top: 302px;
+	left: 52px;
+}
+
+.checker__light.number6 {
+	top: 302px;
+	left: 152px;
+}
+
+.checker__light.number7 {
+	top: 302px;
+	left: 252px;
+}
+
+.checker__light.number8 {
+	top: 302px;
+	left: 352px;
+}
+
+.checker__light.number9 {
+	top: 352px;
+	left: 1px;
+}
+
+.checker__light.number10 {
+	top: 352px;
+	left: 102px;
+}
+
+.checker__light.number11 {
+	top: 352px;
+	left: 202px;
+}
+
+.checker__light.number12 {
+	top: 352px;
+	left: 302px;
+}
